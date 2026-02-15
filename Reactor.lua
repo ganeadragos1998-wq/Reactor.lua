@@ -4,7 +4,6 @@ local term = require("term")
 local gpu = component.gpu
 
  -- Safety Checks
-
 if not component.isAvailable("draconic_reactor") then
   print("Reactor not connected. Please connect computer to reactor with an Adapter block.")
   os.exit()
